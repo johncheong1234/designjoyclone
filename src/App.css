@@ -126,21 +126,22 @@
 }
 
 .scroll-portfolio-section {
-  padding-top: 70px;
+  animation: fadeInFromBottom 0.8s;
+  padding-top: 50px;
   display: flex;
   flex-direction: row;
-  align-items: center;
   background-image: url("https://assets.website-files.com/5837424ae11409586f837994/61195e21f792d7065d2f56ad_noise.png"), linear-gradient(180deg, #fbe8de, #fbe8de);
   position: relative;
   width: 100%;
   overflow-x: visible;
   justify-content: space-between;
+  height: 650px;
 
 }
 
 .scroll-portfolio-image {
   min-width: 400px;
-  min-height: 400px;
+  height: 400px;
   margin-right: 20px;
 }
 
