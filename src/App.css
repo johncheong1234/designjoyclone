@@ -124,3 +124,21 @@
   margin-top: 30px;
   font-size: 13px;
 }
+
+.scroll-portfolio-section{
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: url("https://assets.website-files.com/5837424ae11409586f837994/61195e21f792d7065d2f56ad_noise.png"), linear-gradient(180deg, #fbe8de, #fbe8de);
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+  justify-content: space-between;
+}
+
+.scroll-portfolio-image{
+  min-width: 400px;
+  min-height: 400px;
+  margin-right: 20px;
+}
