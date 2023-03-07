@@ -9,8 +9,15 @@ export function Hero() {
                 <img src={headerImage} alt="header" className='hero-section-image' />
             </div>
             <div className='hero-section-text-container'>
-                <p className='hero-section-header'>A design agency with a twist
-                </p>
+                <div className='hero-section-header'>A design agency with a twist
+                </div>
+                <div className='hero-section-subheader'>
+                    Design subscriptions to scale your business.
+                </div>
+
+                <div className='see-plans-button'>
+                    See plans
+                </div>  
             </div>
         </div>
     );
