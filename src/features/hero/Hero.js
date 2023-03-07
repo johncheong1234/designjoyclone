@@ -3,6 +3,7 @@ import React from 'react';
 import headerImage from '../../assets/headerImage.svg';
 import leftHeroImage from '../../assets/left-hero.svg';
 import rightHeroImage from '../../assets/right-hero.svg';
+import heartIcon from '../../assets/heartIcon.svg';
 
 export function Hero() {
     return (
@@ -14,7 +15,7 @@ export function Hero() {
 
                 className='left-hero-image-container'
             >
-                <img src={leftHeroImage} alt="left-hero" width={'171px'} height={'342px'} />
+                <img src={leftHeroImage} alt="left-hero" width={'200px'} height={'342px'} />
             </div>
             <div style={{
                 position: 'absolute',
@@ -37,6 +38,16 @@ export function Hero() {
 
                 <div className='see-plans-button'>
                     See plans
+                </div>
+
+                <div className='guarantee-text'>
+                    <span>Designs you'll </span>
+                    <div style={{
+                        display: 'inline-block',
+                    }}>
+                        <img src={heartIcon} alt="heart" />
+                    </div>
+                    <span>, guaranteed</span>
                 </div>
             </div>
 

@@ -11,7 +11,7 @@
 @keyframes fadeInFromBottom {
   0% {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(50px);
   }
 
   100% {
@@ -23,7 +23,7 @@
 @keyframes fadeInFromLeft {
   0% {
     opacity: 0;
-    transform: translateX(-20px);
+    transform: translateX(-50px);
   }
 
   100% {
@@ -35,7 +35,7 @@
 @keyframes fadeInFromRight {
   0% {
     opacity: 0;
-    transform: translateX(20px);
+    transform: translateX(50px);
   }
 
   100% {
@@ -56,7 +56,7 @@
   height: 26px;
   width: 128px;
   margin-top: 32px;
-  animation: fadeInFromBottom 0.5s;
+  animation: fadeInFromBottom 0.8s;
 }
 
 .hero-section-image-container {
@@ -69,7 +69,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation: fadeInFromBottom 0.5s;
+  animation: fadeInFromBottom 0.8s;
 }
 
 .hero-section-header {
@@ -113,9 +113,14 @@
 }
 
 .left-hero-image-container{
-  animation:fadeInFromLeft 0.5s;
+  animation:fadeInFromLeft 0.8s;
 }
 
 .right-hero-image-container{
-  animation:fadeInFromRight 0.5s;
+  animation:fadeInFromRight 0.8s;
+}
+
+.guarantee-text{
+  margin-top: 30px;
+  font-size: 13px;
 }
