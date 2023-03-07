@@ -1,4 +1,40 @@
-.App {
+@font-face {
+  font-family: Grifter;
+  src: url("assets/fonts/grifterbold.otf") format("opentype");
+}
+
+.hero-section {
+  width: 100%;
+  height: 634px;
+  background-color: #fbe8de;
+}
+
+.hero-section-image {
+  height: 26px;
+  width: 128px;
+  margin-top: 32px;
+}
+
+.hero-section-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-section-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.hero-section-header {
+  font-family: Grifter, sans-serif;
+  font-size: 80px;
+  line-height: 90px;
+  font-weight: 200;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -36,4 +72,4 @@
   100% {
     transform: translateY(0px);
   }
-}
+} */
