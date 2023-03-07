@@ -201,7 +201,7 @@
 }
 
 .brand-scroller{
-  animation: moveLeftRight 3s infinite;
+  animation: moveLeftRight 3s linear infinite;
   position: absolute;
   width: 100%;
   display: flex;
