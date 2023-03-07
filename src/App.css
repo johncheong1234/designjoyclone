@@ -147,3 +147,10 @@
 #app-container {
   background-image: url("https://assets.website-files.com/5837424ae11409586f837994/61195e21f792d7065d2f56ad_noise.png"), linear-gradient(180deg, #fbe8de, #fbe8de);
 }
+
+.scroll-portfolio-image:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+  /* add gradient grey box shadow effect */
+  box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.613);
+}
