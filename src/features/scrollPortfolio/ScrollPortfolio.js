@@ -15,7 +15,9 @@ export function ScrollPortfolio() {
 
     return (
         <div className='scroll-portfolio-section-container'>
-            <Lottie animationData={dogFootprints} loop={true} />
+            <Lottie animationData={dogFootprints} loop={true} style={{
+                height: '20px',
+            }} />
             <img src={latestProjects} alt="latest-projects" className='latest-projects-image'
                 style={{
                     // rotation 
