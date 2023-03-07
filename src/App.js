@@ -5,8 +5,19 @@ import './App.css';
 import { Hero } from './features/hero/Hero';
 
 function App() {
+
+  function handleScroll() {
+    console.log('scrolling');
+  }
+
   return (
-    <Hero />
+    <div onScroll = {handleScroll} style={{
+      overflowY: 'scroll',
+      position: 'relative',
+      height:'100vh'
+    }}>
+      <Hero />
+    </div>
   );
 }
 
