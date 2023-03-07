@@ -17,10 +17,10 @@ function App() {
     const scrollAppContainer = appContainer.scrollTop;
 
     // get height of app container
-    const appContainerHeight = appContainer.offsetHeight;
-    console.log('scrolling');
-    console.log(scrollAppContainer);
-    console.log(appContainerHeight);
+    // const appContainerHeight = appContainer.offsetHeight;
+    // console.log('scrolling');
+    // console.log(scrollAppContainer);
+    // console.log(appContainerHeight);
     dispatch(setPortfolioScrollLeft({ scrollLeft: scrollAppContainer }));
   }
 
