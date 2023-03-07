@@ -126,7 +126,6 @@
 }
 
 .scroll-portfolio-section {
-  animation: fadeInFromBottom 0.8s;
   padding-top: 50px;
   display: flex;
   flex-direction: row;
@@ -158,6 +157,8 @@
 
 .scroll-portfolio-section-container{
   position: relative;
+  animation: fadeInFromBottom 0.8s;
+
 }
 
 .latest-projects-image{

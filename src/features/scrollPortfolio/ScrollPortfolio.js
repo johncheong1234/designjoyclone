@@ -13,7 +13,12 @@ export function ScrollPortfolio() {
 
     return (
         <div className='scroll-portfolio-section-container'>
-            <img src={latestProjects} alt="latest-projects" className='latest-projects-image' />
+            <img src={latestProjects} alt="latest-projects" className='latest-projects-image'
+            style = {{
+                // rotation 
+                transform: `rotate(-${scrollLeft/10}deg)`,
+            }}
+            />
             <div className='scroll-portfolio-section' style={{
                 transform: `translateX(-${scrollLeft / 3}px)`
             }}>
