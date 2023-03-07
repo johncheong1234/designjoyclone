@@ -155,3 +155,15 @@
   /* add gradient grey box shadow effect */
   box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.613);
 }
+
+.scroll-portfolio-section-container{
+  position: relative;
+}
+
+.latest-projects-image{
+  position: absolute;
+  z-index: 1;
+  margin-left: 5%;
+  margin-top: -1%;
+  width: 142px;
+}
