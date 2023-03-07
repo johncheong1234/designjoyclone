@@ -4,11 +4,14 @@ import React from 'react';
 import './App.css';
 import { Hero } from './features/hero/Hero';
 import { ScrollPortfolio } from './features/scrollPortfolio/ScrollPortfolio';
+import { setPortfolioScrollLeft } from './features/scrollPortfolio/scrollPortfolioSlice';
+import { useDispatch } from 'react-redux';
 
 function App() {
 
-  function handleScroll() {
+  const dispatch = useDispatch();
 
+  function handleScroll() {
     const appContainer = document.getElementById('app-container');
     const scrollAppContainer = appContainer.scrollTop;
 
@@ -17,11 +20,13 @@ function App() {
     console.log('scrolling');
     console.log(scrollAppContainer);
     console.log(appContainerHeight);
+    dispatch(setPortfolioScrollLeft({ scrollLeft: scrollAppContainer }));
   }
 
   return (
     <div onScroll={handleScroll} style={{
       overflowY: 'scroll',
+      overflowX: 'hidden',
       position: 'relative',
       height: '100vh'
     }}

@@ -107,38 +107,43 @@
   cursor: pointer;
 }
 
-.see-plans-button:hover{
+.see-plans-button:hover {
   box-shadow: 8px 8px 0 0 rgb(0 0 0 / 20%);
   transform: translate(0px, -2px);
 }
 
-.left-hero-image-container{
-  animation:fadeInFromLeft 0.8s;
+.left-hero-image-container {
+  animation: fadeInFromLeft 0.8s;
 }
 
-.right-hero-image-container{
-  animation:fadeInFromRight 0.8s;
+.right-hero-image-container {
+  animation: fadeInFromRight 0.8s;
 }
 
-.guarantee-text{
+.guarantee-text {
   margin-top: 30px;
   font-size: 13px;
 }
 
-.scroll-portfolio-section{
-  padding-top: 100px;
+.scroll-portfolio-section {
+  padding-top: 70px;
   display: flex;
   flex-direction: row;
   align-items: center;
   background-image: url("https://assets.website-files.com/5837424ae11409586f837994/61195e21f792d7065d2f56ad_noise.png"), linear-gradient(180deg, #fbe8de, #fbe8de);
   position: relative;
   width: 100%;
-  overflow-x: hidden;
+  overflow-x: visible;
   justify-content: space-between;
+
 }
 
-.scroll-portfolio-image{
+.scroll-portfolio-image {
   min-width: 400px;
   min-height: 400px;
   margin-right: 20px;
+}
+
+#app-container {
+  background-image: url("https://assets.website-files.com/5837424ae11409586f837994/61195e21f792d7065d2f56ad_noise.png"), linear-gradient(180deg, #fbe8de, #fbe8de);
 }
