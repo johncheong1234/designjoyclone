@@ -246,3 +246,23 @@
   max-width: 600px;
   text-align: center;
 }
+
+.usps-details{
+  margin-top: 100px;
+}
+
+.usps-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.usps-detail-text{
+  font-family: Plusjakartasans,sans-serif;
+  margin-bottom: 0;
+  font-size: 20px;
+  line-height: 26px;
+  max-width: 600px;
+  text-align: center;
+}
