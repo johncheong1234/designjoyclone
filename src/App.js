@@ -6,6 +6,7 @@ import { Hero } from './features/hero/Hero';
 import { ScrollPortfolio } from './features/scrollPortfolio/ScrollPortfolio';
 import { setPortfolioScrollLeft } from './features/scrollPortfolio/scrollPortfolioSlice';
 import { BrandScroller } from './features/brandScroller/BrandScroller';
+import { Usps } from './features/usps/Usps';
 import { useDispatch } from 'react-redux';
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
       <Hero />
       <ScrollPortfolio />
       <BrandScroller />
+      <Usps />
     </div>
   );
 }
