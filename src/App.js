@@ -25,8 +25,14 @@ function App() {
     dispatch(setPortfolioScrollLeft({ scrollLeft: scrollAppContainer }));
   }
 
+  function handlePointerMove(e){
+    console.log(e);
+  }
+
   return (
-    <div onScroll={handleScroll} style={{
+    <div onScroll={handleScroll}
+    onPointerMove={handlePointerMove}
+    style={{
       overflowY: 'scroll',
       overflowX: 'hidden',
       position: 'relative',
