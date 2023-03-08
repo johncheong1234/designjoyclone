@@ -248,7 +248,7 @@
 }
 
 .usps-details{
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 .usps-detail {
@@ -263,6 +263,6 @@
   margin-bottom: 0;
   font-size: 20px;
   line-height: 26px;
-  max-width: 600px;
+  max-width: 300px;
   text-align: center;
 }

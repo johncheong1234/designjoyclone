@@ -6,8 +6,6 @@ import portfolio4Image from '../../assets/portfolio4.jpeg';
 import portfolio5Image from '../../assets/portfolio5.jpeg';
 import latestProjects from '../../assets/latestProjects.svg';
 import { useSelector } from 'react-redux';
-import Lottie from "lottie-react";
-import dogFootprints from '../../assets/dogFootprints.json';
 
 export function ScrollPortfolio() {
 
@@ -15,9 +13,7 @@ export function ScrollPortfolio() {
 
     return (
         <div className='scroll-portfolio-section-container'>
-            <Lottie animationData={dogFootprints} loop={true} style={{
-                height: '20px',
-            }} />
+
             <img src={latestProjects} alt="latest-projects" className='latest-projects-image'
                 style={{
                     // rotation 
