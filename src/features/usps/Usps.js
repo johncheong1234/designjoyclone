@@ -2,6 +2,8 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Lottie from "lottie-react";
 import dogFootprints from '../../assets/dogFootprints.json';
+import polarbear from '../../assets/polarbear.json';
+import spinner from '../../assets/spinner.json';
 
 export function Usps() {
     return (
@@ -22,13 +24,13 @@ export function Usps() {
                             <p class="usps-detail-text">Subscribe to a plan & request as many designs as you'd like.</p>
                         </div>
                         <div class="usps-detail col-md">
-                            <Lottie animationData={dogFootprints} loop={true} style={{
+                            <Lottie animationData={polarbear} loop={true} style={{
                                 height: '150px',
                             }} />
                             <p class="usps-detail-text">Receive your design within a few business days on average, Monday to Friday.</p>
                         </div>
                         <div class="usps-detail col-md">
-                            <Lottie animationData={dogFootprints} loop={true} style={{
+                            <Lottie animationData={spinner} loop={true} style={{
                                 height: '150px',
                             }} />
                             <p class="usps-detail-text">We'll revise the designs until you're 100% satisfied.
