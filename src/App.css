@@ -73,7 +73,7 @@
 }
 
 .hero-section-image {
-  height: 26px;
+  height: 100px;
   width: 128px;
   margin-top: 32px;
   animation: fadeInFromBottom 0.8s;
