@@ -37,6 +37,11 @@ export function Hero() {
         }, 20);
     }
 
+    function bookConsultation(){
+        // open link in new tab
+        window.open('https://calendly.com/designnow/design-consultation', '_blank');
+    }
+
     return (
         <div className='hero-section'>
             <div style={{
@@ -71,8 +76,10 @@ export function Hero() {
                     Design subscriptions to scale your business.
                 </div>
 
-                <div className='see-plans-button'>
-                    See plans
+                <div className='see-plans-button' onClick={
+                    bookConsultation
+                }>
+                    Book a free consultation
                 </div>
 
                 <div className='guarantee-text'>

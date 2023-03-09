@@ -73,8 +73,8 @@
 }
 
 .hero-section-image {
-  height: 100px;
-  width: 128px;
+  height: 40px;
+  width: 240px;
   margin-top: 32px;
   animation: fadeInFromBottom 0.8s;
 }
@@ -266,4 +266,40 @@
   max-width: 300px;
   text-align: center;
   font-weight: 500;
+}
+
+/* mobile version css */
+
+@media (max-width: 768px) {
+
+  .hero-section{
+    height: 60vh;
+  }
+
+  .hero-section-header{
+    font-size: 40px;
+    line-height: 50px;
+    max-width: 400px;
+  }
+
+  .hero-section-subheader{
+    font-size: 15px;
+    line-height: 18px;
+    max-width: 400px;
+  }
+
+  .left-hero-image-container, .right-hero-image-container {
+    display: none;
+  }
+
+  .usps-header{
+    font-size: 40px;
+    line-height: 50px;
+    max-width: 400px;
+  }
+
+  .brand-scroller-container {
+    display: none;
+  }
+
 }
