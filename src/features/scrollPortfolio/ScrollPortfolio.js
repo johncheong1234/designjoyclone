@@ -17,7 +17,7 @@ export function ScrollPortfolio() {
             <img src={latestProjects} alt="latest-projects" className='latest-projects-image'
                 style={{
                     // rotation 
-                    transform: `rotate(-${scrollLeft / 10}deg)`,
+                    transform: `rotate(-${scrollLeft / 30}deg)`,
                 }}
             />
             <div className='scroll-portfolio-section' style={{

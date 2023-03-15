@@ -15,13 +15,8 @@ function App() {
 
   function handleScroll() {
     const appContainer = document.getElementById('app-container');
+    if(!appContainer) return;
     const scrollAppContainer = appContainer.scrollTop;
-
-    // get height of app container
-    // const appContainerHeight = appContainer.offsetHeight;
-    // console.log('scrolling');
-    // console.log(scrollAppContainer);
-    // console.log(appContainerHeight);
     dispatch(setPortfolioScrollLeft({ scrollLeft: scrollAppContainer }));
   }
 
