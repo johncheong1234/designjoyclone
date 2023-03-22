@@ -5,6 +5,7 @@ import leftHeroImage from '../../assets/left-hero.svg';
 import rightHeroImage from '../../assets/right-hero.svg';
 import heartIcon from '../../assets/heartIcon.svg';
 import DesignNowLogo from '../../assets/DesignNowLogo.svg';
+import DesignAceLogo from '../../assets/DesignAceLogo.svg';
 
 export function Hero() {
 
@@ -63,7 +64,7 @@ export function Hero() {
                 <img src={rightHeroImage} alt="left-hero" width={'171px'} height={'308px'} />
             </div>
             <div className='hero-section-image-container'>
-                <img src={DesignNowLogo} alt="header" className='hero-section-image' />
+                <img src={DesignAceLogo} alt="header" className='hero-section-image' />
             </div>
             <div className='hero-section-text-container'>
                 <div className='hero-section-header' onMouseOver={
