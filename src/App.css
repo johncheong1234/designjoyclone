@@ -308,10 +308,11 @@
 .new-hero-section{
   background-image: url("https://assets.website-files.com/5837424ae11409586f837994/61195e21f792d7065d2f56ad_noise.png");
   display: block;
-height: 130px;
+height: fit-content;
 /* Neutral/200 */
 background-color: #E2ECF0;
 padding-top: 40px;
+padding-bottom: 40px;
 /* Inside auto layout */
 }
 
