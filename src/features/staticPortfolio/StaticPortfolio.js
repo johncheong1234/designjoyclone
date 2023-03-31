@@ -1,4 +1,8 @@
 import React from 'react';
+import staticPortfolioImage1 from '../../assets/staticPortfolioImage1.png';
+import staticPortfolioImage2 from '../../assets/staticPortfolioImage2.png';
+import staticPortfolioImage3 from '../../assets/staticPortfolioImage3.png';
+import staticPortfolioImage4 from '../../assets/staticPortfolioImage4.png';
 
 export function StaticPortfolio() {
     return (
@@ -9,7 +13,8 @@ export function StaticPortfolio() {
                 flexDirection: 'column',
             }}
             >
-
+                <img src={staticPortfolioImage1} width={'100%'}/>
+                <img src={staticPortfolioImage2} width={'100%'}/>
             </div>
             <div
             style={{
@@ -24,7 +29,8 @@ export function StaticPortfolio() {
                 flexDirection: 'column',
             }}
             >
-
+                <img src={staticPortfolioImage3} width={'100%'}/>
+                <img src={staticPortfolioImage4} width={'100%'}/>
             </div>
         </div>
     )
