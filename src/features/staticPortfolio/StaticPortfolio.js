@@ -50,7 +50,7 @@ export function StaticPortfolio() {
             </div>
             <div
                 style={{
-                    width: '10%'
+                    width: '20%'
                 }}
             >
 
