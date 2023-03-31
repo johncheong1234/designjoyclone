@@ -13,6 +13,11 @@
   src: url("assets/fonts/CabinetGrotesk-Bold.ttf") format("opentype");
 }
 
+@font-face {
+  font-family: Cabinet Grotesk;
+  src: url("assets/fonts/CabinetGrotesk-Regular.ttf") format("opentype");
+}
+
 @keyframes fadeInFromBottom {
   0% {
     opacity: 0;
@@ -132,6 +137,30 @@
 }
 
 .see-plans-button:hover {
+  box-shadow: 8px 8px 0 0 rgb(0 0 0 / 20%);
+  transform: translate(0px, -2px);
+}
+
+.white-see-plans-button {
+  font-family: Grifter, sans-serif;
+  color: black;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: .5px;
+
+  background-color: white;
+  padding: 24px 60px;
+  border-radius: 8px;
+  margin-top: 40px;
+  -webkit-text-size-adjust: 100%;
+  box-shadow: 6px 6px 0 0 rgb(0 0 0 / 20%);
+  transition: -0.2s;
+
+  cursor: pointer;
+}
+
+.white-see-plans-button:hover {
   box-shadow: 8px 8px 0 0 rgb(0 0 0 / 20%);
   transform: translate(0px, -2px);
 }
@@ -340,7 +369,7 @@ padding-bottom: 40px;
   font-family: 'Cabinet Grotesk Bold';
 font-style: normal;
 font-weight: 700;
-font-size: 90px;
+font-size: 60px;
 line-height: 100%;
 }
 
@@ -352,7 +381,16 @@ line-height: 100%;
   font-family: 'Cabinet Grotesk Bold';
 font-style: normal;
 font-weight: 700;
-font-size: 90px;
+font-size: 60px;
 line-height: 100%;
 color: #7619E6;
+}
+
+.hero-section-description{
+  font-family: 'Cabinet Grotesk';
+  font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 100%;
+margin-top: 40px;
 }
