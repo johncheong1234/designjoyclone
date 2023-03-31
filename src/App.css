@@ -399,5 +399,7 @@ margin-top: 40px;
   background-image: url("https://assets.website-files.com/5837424ae11409586f837994/61195e21f792d7065d2f56ad_noise.png");
   display: block;
   background-color: #E2ECF0;
-  padding: 100px
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
 }
