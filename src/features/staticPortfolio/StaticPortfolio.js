@@ -6,31 +6,94 @@ import staticPortfolioImage4 from '../../assets/staticPortfolioImage4.png';
 
 export function StaticPortfolio() {
     return (
-        <div className='static-portfolio-section'>
-            <div 
-            style = {{
-                display: 'flex',
-                flexDirection: 'column',
-            }}
+        <div className='static-portfolio-section' style={{
+            animation: 'fadeInFromBottom 0.8s'
+        }}>
+            <div
+                style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    paddingTop: '120px',
+                    gap: '50px',
+                }}
             >
-                <img src={staticPortfolioImage1} width={'100%'}/>
-                <img src={staticPortfolioImage2} width={'100%'}/>
+                <div>
+                    <img src={staticPortfolioImage1} width={'100%'} />
+                    <div style={{
+                        marginLeft: '10px',
+                        marginTop: '10px'
+                    }}>
+                        <p style={{
+                            fontFamily: 'Cabinet Grotesk Bold',
+                            marginBottom: '0px'
+                        }}>PwC Raise</p>
+                        <p style={{
+                            fontFamily: 'Cabinet Grotesk',
+                        }}>Report, Branding, Custom Graphics</p>
+                    </div>
+                </div>
+                <div>
+                    <img src={staticPortfolioImage2} width={'100%'} />
+                    <div style={{
+                        marginLeft: '10px',
+                        marginTop: '10px'
+                    }}>
+                        <p style={{
+                            fontFamily: 'Cabinet Grotesk Bold',
+                            marginBottom: '0px'
+                        }}>TradePal Loan App</p>
+                        <p style={{
+                            fontFamily: 'Cabinet Grotesk',
+                        }}>Product, Branding, Development</p>
+                    </div>
+                </div>
             </div>
             <div
-            style={{
-                width: '10%'
-            }}
+                style={{
+                    width: '10%'
+                }}
             >
 
             </div>
             <div
-            style = {{
-                display: 'flex',
-                flexDirection: 'column',
-            }}
+                style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: '50px'
+                }}
             >
-                <img src={staticPortfolioImage3} width={'100%'}/>
-                <img src={staticPortfolioImage4} width={'100%'}/>
+                <div>
+                    <img src={staticPortfolioImage3} width={'100%'} style={{
+                        borderRadius: '10px'
+                    }} />
+                    <div style={{
+                        marginLeft: '10px',
+                        marginTop: '10px'
+                    }}>
+                        <p style={{
+                            fontFamily: 'Cabinet Grotesk Bold',
+                            marginBottom: '0px'
+                        }}>MAAX Hair Salon</p>
+                        <p style={{
+                            fontFamily: 'Cabinet Grotesk',
+                        }}>Social Media Marketing, Logo, Website</p>
+                    </div>
+                </div>
+                <div>
+                    <img src={staticPortfolioImage4} width={'100%'} />
+                    <div style={{
+                        marginLeft: '10px',
+                        marginTop: '10px'
+                    }}>
+                        <p style={{
+                            fontFamily: 'Cabinet Grotesk Bold',
+                            marginBottom: '0px'
+                        }}>TradePal Fund I</p>
+                        <p style={{
+                            fontFamily: 'Cabinet Grotesk',
+                        }}>Investor Materials, Branding</p>
+                    </div>
+                </div>
             </div>
         </div>
     )
